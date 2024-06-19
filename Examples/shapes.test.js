@@ -13,19 +13,19 @@ describe("GenerateSVG", () => {
     it("will recive a shape color", () => {
       const shapeColor = "blue";
       const circle = new Circle(shapeColor);
-      expect(circle.color).toBe(shapeColor);
+      expect(circle.color).toEqual(shapeColor)        
     });
 
     it("will recive a text", () => {
       const text = "svg";
-      const circle = new Circle(text);
-      expect(circle.text).toBe(text);
+      const circle = new Circle('blue',text);
+      expect(circle.text).toEqual(text)
     });
 
     it("the text will recive a color", () => {
       const textColor = "white";
-      const circle = new Circle(textColor);
-      expect(circle.textColor).toBe(textColor);
+      const circle = new Circle('blue','text',textColor);
+      expect(circle.textColor).toEqual(textColor)
     });
     
   });
