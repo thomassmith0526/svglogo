@@ -13,6 +13,8 @@ made a js progarm with inquirer to make a logo for SVG.
 also made some test to make sure that SVG would get the correct logo.
 ## Lincese
 N/A
+## viedo link
+https://youtu.be/eG4MJ_BLx3g
 ## Screen Shots 
 ![Alt Text](./images/node.png)
 ![Alt Text](./images/svglogo.png)
